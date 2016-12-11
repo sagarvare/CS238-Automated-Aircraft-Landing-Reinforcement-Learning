@@ -12,7 +12,7 @@ class Const(object):
     
     Y_MAX = 0.125                                                              # in km
     Y_MIN = -0.125                                                             # in km
-    BINS_Y = 51                                                               # number of bins in Y direction
+    BINS_Y = 51                                                                # number of bins in Y direction
     BIN_SIZE_Y = (Y_MAX - Y_MIN) / BINS_Y                                      # in km
     
     # Time parameters
@@ -26,7 +26,7 @@ class Const(object):
     
     VY_MIN = -50.0                                                             # in km/hr
     VY_MAX = 50.0                                                              # in km/hr
-    BINS_VY = 51                                                              # number of bins in VY
+    BINS_VY = 51                                                               # number of bins in VY
     BIN_SIZE_VY = (VY_MAX - VY_MIN) / BINS_VY                                  # in km/hr
     
     VZ_MIN = -20.0                                                             # in km/hr
